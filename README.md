@@ -67,13 +67,12 @@ plt.show()
 
 ---
 
+
 ###  Insights
-
-Vehicle searches and stop reasons are strongest predictors.
-
-Some precincts and violation types have disproportionately high search rates.
-
-Machine learning revealed consistent patterns that align with known bias indicators.
+- *Vehicle searches* and *stop reasons* emerged as the strongest predictors of whether a person was searched.  
+- Certain precincts and violation types displayed disproportionately higher search rates, indicating potential systemic bias.  
+- Logistic Regression and Random Forest models both confirmed consistent patterns aligning with known real-world enforcement disparities.  
+- Visualizing the confusion matrices and feature importances helped connect quantitative model results with social impact interpretation.
 
 
 ---
