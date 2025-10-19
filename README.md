@@ -1,41 +1,117 @@
-# Police Search Bias Analysis
+# 🚓 Police Search Bias Prediction
+**Using Machine Learning to Analyze Racial and Situational Bias in Police Stop Data**
 
-This repository presents a full machine learning project investigating patterns in police stop and search data.  
-The goal is to explore potential disparities and predictive patterns based on demographics, geography, and search outcomes.
-
-## 🎯 Objective
-Use open data from the **Stanford Open Policing Project** to evaluate whether features like driver age, gender, or race influence search outcomes or stop frequency.
-
-## 🧰 Technologies
-- Python, Pandas, NumPy, Matplotlib, Seaborn  
-- Scikit-learn (Logistic Regression, Decision Trees, Random Forest, SVM)  
-- Tableau for interactive dashboards  
-- Jupyter Notebooks for data exploration  
-
-## 🧠 Key Steps
-1. **Data Acquisition:** Pulled from Stanford Open Policing dataset.  
-2. **Cleaning:** Removed duplicates, handled missing demographic data, normalized search results.  
-3. **EDA:** Visualized stop counts, outcomes, and driver demographics by location.  
-4. **Modeling:** Predicted the likelihood of a search using ML classification algorithms.  
-5. **Ethical Reflection:** Discussed algorithmic fairness, data bias, and social implications.
-
-## 📊 Results
-| Model | Accuracy | F1-Score | Notes |
-|-------|-----------|----------|-------|
-| Logistic Regression | 83% | 0.78 | Baseline performance |
-| Decision Tree | 88% | 0.85 | Balanced precision-recall |
-| Random Forest | 90% | 0.87 | Best performing model |
-
-## 📈 Visualizations
-- Tableau dashboard showing stop and search breakdowns  
-- Python plots: race vs. search rate, time-of-day heatmaps, model evaluation charts  
-
-## 🗂 Repository Structure
-
-## 🧩 Learning Outcomes
-- Hands-on experience applying ML to real-world social data  
-- Enhanced understanding of fairness metrics and bias in algorithms  
-- Strengthened skills in ethical data interpretation and visualization  
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML%20Library-orange)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-lightblue)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Charts-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ---
+
+### 🧠 Project Overview
+This project investigates potential bias in police search decisions using open-source stop data.  
+Through **data visualization** and **machine learning models**, it predicts whether a *person was searched* based on demographics, violation type, and stop reason.
+
+Built as part of a **data science capstone**, it explores fairness and real-world applications of AI in social data.
+
+---
+
+### 📊 Dataset
+- **Source:** [MLCamp2025 Police Stop Dataset](https://raw.githubusercontent.com/sziccardi/MLCamp2025_DataRepository/main/Police_stop_data1.csv)
+- **Size:** ~20,000 records, 15+ categorical variables
+- **Key Variables:**
+  - `preRace` – perceived race
+  - `reason` – reason for stop
+  - `problem` – violation type
+  - `vehicleSearch`, `personSearch` – binary outcomes
+  - `gender`, `callDisposition`, `citationIssued`, `precinct`
+
+---
+
+### ⚙️ Methodology
+
+#### 1️⃣ Data Cleaning & Preparation
+- Removed missing values, encoded categorical variables using **`pd.get_dummies()`**  
+- Normalized features and dropped incomplete rows  
+- Performed visual EDA with `Seaborn` and `Matplotlib`
+
+#### 2️⃣ Feature Engineering
+- Predictor columns: `reason`, `vehicleSearch`, `precinct`, etc.  
+- Target variable: `personSearch_YES` (binary classification)
+
+#### 3️⃣ Model Comparison
+| Model | Description | Accuracy |
+|:------|:-------------|:----------:|
+| **KNN** | Baseline classification | ~65% |
+| **Decision Tree** | Interpretable model (visualized via Graphviz) | ~70% |
+| **Random Forest** | Ensemble model with improved stability | ~73% |
+| **SVM (Linear, RBF, Poly, Sigmoid)** | Tested multiple kernels | 68–75% |
+| **Logistic Regression** | Probabilistic baseline | ~72% |
+
+---
+
+### 📈 Key Visuals
+- Distribution of searches by race and problem type  
+- Correlation matrix for predictive features  
+- Confusion matrices for all classifiers  
+- Scatter plots for logistic regression predictions  
+
+> Example output (replace with your plots):
+
+```python
+sns.countplot(x='personSearch_YES', data=police_df_new)
+plt.title("Distribution of Person Searches")
+plt.show()
+
+
+---
+
+💡 Insights
+
+Vehicle searches and stop reasons are strongest predictors.
+
+Some precincts and violation types have disproportionately high search rates.
+
+Machine learning revealed consistent patterns that align with known bias indicators.
+
+
+---
+
+🧩 Tech Stack
+
+Languages: Python (NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn)
+Tools: Jupyter Notebook, Graphviz, GitHub
+Techniques: Data encoding, model benchmarking, confusion matrix visualization
+
+
+---
+
+🔬 Future Work
+
+Integrate Explainable AI (SHAP, LIME) for interpretability.
+
+Build a Flask/Streamlit dashboard for interactive data visualization.
+
+Expand dataset to include multi-state comparisons.
+
+Incorporate fairness metrics (e.g., Equalized Odds, Disparate Impact).
+
+
+---
+
+🧾 Citation
+Lilad, S. (2025). Police Search Bias Prediction Using Machine Learning.
+
+---
+
+├── Police_Search_Bias.ipynb
+├── data/
+│   └── Police_stop_data1.csv
+├── visuals/
+│   ├── confusion_matrix.png
+│   ├── feature_importance.png
+└── README.md
+
 
