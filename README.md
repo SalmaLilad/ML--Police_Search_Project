@@ -57,14 +57,6 @@ Built as part of the University of Minnesota 2025 Basic Machine Learning Summer 
 - Confusion matrices for all classifiers  
 - Scatter plots for logistic regression predictions  
 
-> Example output :
-
-```python
-sns.countplot(x='personSearch_YES', data=police_df_new)
-plt.title("Distribution of Person Searches")
-plt.show()
-
-
 ---
 
 
