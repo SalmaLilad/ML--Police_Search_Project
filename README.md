@@ -71,9 +71,14 @@ Built as part of the University of Minnesota 2025 Basic Machine Learning Summer 
 
 ###  Tech Stack
 
-Languages: Python (NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn)
-Tools: Jupyter Notebook, Graphviz, GitHub
-Techniques: Data encoding, model benchmarking, confusion matrix visualization
+**Languages:** Python (NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn)  
+**Tools:** Jupyter Notebook, Graphviz, GitHub  
+**Techniques:** Data encoding, feature engineering, model benchmarking, and confusion matrix visualization  
+**Libraries Used:**  
+- `Pandas` – data manipulation and preprocessing  
+- `Seaborn` / `Matplotlib` – data visualization  
+- `Scikit-learn` – model training and evaluation  
+- `Graphviz` – decision tree visualization
 
 
 ---
