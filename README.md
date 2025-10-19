@@ -13,7 +13,7 @@
 ###  Project Overview
 This project investigates potential bias in police search decisions using open-source stop data. Through **data visualization** and **machine learning models**, it predicts whether a *person was searched* based on demographics, violation type, and stop reason.
 
-Built as part of the University of Minnesota 2025 Basic Machine Learning Summer Camp ** Capstone Project**, it explores fairness and real-world applications of AI in social data.
+Built as part of the University of Minnesota 2025 Basic Machine Learning Summer Camp **Capstone Project**, it explores fairness and real-world applications of AI in social data.
 
 ---
 
