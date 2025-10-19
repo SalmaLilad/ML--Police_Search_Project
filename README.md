@@ -10,14 +10,14 @@
 
 ---
 
-### 🧠 Project Overview
+###  Project Overview
 This project investigates potential bias in police search decisions using open-source stop data. Through **data visualization** and **machine learning models**, it predicts whether a *person was searched* based on demographics, violation type, and stop reason.
 
 Built as part of the University of Minnesota 2025 Basic Machine Learning Summer Camp ** Capstone Project**, it explores fairness and real-world applications of AI in social data.
 
 ---
 
-### 📊 Dataset
+###  Dataset
 - **Source:** [MLCamp2025 Police Stop Dataset](https://raw.githubusercontent.com/sziccardi/MLCamp2025_DataRepository/main/Police_stop_data1.csv)
 - **Size:** ~20,000 records, 15+ categorical variables
 - **Key Variables:**
@@ -29,7 +29,7 @@ Built as part of the University of Minnesota 2025 Basic Machine Learning Summer 
 
 ---
 
-### ⚙️ Methodology
+###  Methodology
 
 #### 1️⃣ Data Cleaning & Preparation
 - Removed missing values, encoded categorical variables using **`pd.get_dummies()`**  
@@ -51,7 +51,7 @@ Built as part of the University of Minnesota 2025 Basic Machine Learning Summer 
 
 ---
 
-### 📈 Key Visuals
+###  Key Visuals
 - Distribution of searches by race and problem type  
 - Correlation matrix for predictive features  
 - Confusion matrices for all classifiers  
@@ -67,7 +67,7 @@ plt.show()
 
 ---
 
-💡 Insights
+ Insights
 
 Vehicle searches and stop reasons are strongest predictors.
 
@@ -78,7 +78,7 @@ Machine learning revealed consistent patterns that align with known bias indicat
 
 ---
 
-🧩 Tech Stack
+ Tech Stack
 
 Languages: Python (NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn)
 Tools: Jupyter Notebook, Graphviz, GitHub
@@ -87,7 +87,7 @@ Techniques: Data encoding, model benchmarking, confusion matrix visualization
 
 ---
 
-🔬 Future Work
+ Future Work
 
 Integrate Explainable AI (SHAP, LIME) for interpretability.
 
@@ -100,7 +100,7 @@ Incorporate fairness metrics (e.g., Equalized Odds, Disparate Impact).
 
 ---
 
-🧾 Citation
+ Citation
 Lilad, S. (2025). Police Search Bias Prediction Using Machine Learning.
 
 ---
