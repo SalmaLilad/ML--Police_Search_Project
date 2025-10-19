@@ -104,6 +104,7 @@ Lilad, S. (2025). Police Search Bias Prediction Using Machine Learning.
 
 *** Repository Structure
 
+
 ├── Police_Search_Bias.ipynb
 ├── data/
 │   └── Police_stop_data1.csv
