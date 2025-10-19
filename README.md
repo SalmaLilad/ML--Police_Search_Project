@@ -67,7 +67,7 @@ plt.show()
 
 ---
 
- Insights
+###  Insights
 
 Vehicle searches and stop reasons are strongest predictors.
 
@@ -78,7 +78,7 @@ Machine learning revealed consistent patterns that align with known bias indicat
 
 ---
 
- Tech Stack
+###  Tech Stack
 
 Languages: Python (NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn)
 Tools: Jupyter Notebook, Graphviz, GitHub
@@ -87,7 +87,7 @@ Techniques: Data encoding, model benchmarking, confusion matrix visualization
 
 ---
 
- Future Work
+###  Future Work
 
 Integrate Explainable AI (SHAP, LIME) for interpretability.
 
@@ -100,10 +100,12 @@ Incorporate fairness metrics (e.g., Equalized Odds, Disparate Impact).
 
 ---
 
- Citation
+###  Citation
 Lilad, S. (2025). Police Search Bias Prediction Using Machine Learning.
 
 ---
+
+*** Repository Structure
 
 ├── Police_Search_Bias.ipynb
 ├── data/
@@ -112,5 +114,6 @@ Lilad, S. (2025). Police Search Bias Prediction Using Machine Learning.
 │   ├── confusion_matrix.png
 │   ├── feature_importance.png
 └── README.md
+
 
 
