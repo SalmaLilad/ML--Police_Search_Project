@@ -75,7 +75,7 @@ Built as part of the University of Minnesota 2025 Basic Machine Learning Summer 
 **Tools:** Jupyter Notebook, Graphviz, GitHub  
 **Techniques:** Data encoding, feature engineering, model benchmarking, and confusion matrix visualization  
 
-**Libraries Used:**  
+**Libraries Used:**
 - `Pandas` – data manipulation and preprocessing  
 - `Seaborn` / `Matplotlib` – data visualization  
 - `Scikit-learn` – model training and evaluation  
