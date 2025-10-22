@@ -29,6 +29,7 @@ Built as part of the University of Minnesota 2025 Basic Machine Learning Summer 
   - `gender`, `callDisposition`, `citationIssued`, `precinct`
 
 After cleaning with `dropna()` and encoding via `pd.get_dummies()`, the data was split into **training (80%)** and **testing (20%)** sets.
+
 ---
 
 ###  Methodology
