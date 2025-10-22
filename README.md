@@ -109,6 +109,13 @@ Implemented multiple models using **Scikit-learn**:
 
 ###  Tech Stack
 
+<summary><h2>⚙️ Tech Stack</h2></summary>
+
+
+</details>
+
+---
+
 **Languages:** Python (NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn)  
 **Tools:** Jupyter Notebook, Graphviz, GitHub  
 **Techniques:** Data encoding, feature engineering, model benchmarking, and confusion matrix visualization  
