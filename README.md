@@ -158,3 +158,14 @@ Lilad, S. (2025). Police Search Bias Prediction Using Machine Learning.
 
 
 
+---
+
+## 👩‍💻 Author  
+**Saanvi ([@SalmaLilad](https://github.com/SalmaLilad))**  
+Exploring fairness, ethics, and transparency in real-world machine learning applications.
+
+---
+
+> 🧩 *“Data science is not just about prediction — it’s about understanding the patterns that shape human impact.”*
+
+---
