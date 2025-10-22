@@ -34,16 +34,45 @@ After cleaning with `dropna()` and encoding via `pd.get_dummies()`, the data was
 
 ###  Workflow & Methodlogy
 
-#### 1️⃣ Data Cleaning & Preparation
+#### 🔹 Step 1: Data Cleaning & Encoding
 - Removed missing values, encoded categorical variables using **`pd.get_dummies()`**  
-- Normalized features and dropped incomplete rows  
+- Normalized features and dropped incomplete rows
+- Verified column types and balanced the dataset for fair modeling.
 - Performed visual EDA with `Seaborn` and `Matplotlib`
 
-#### 2️⃣ Feature Engineering
+#### 🔹 Step 2: Feature Engineering
 - Predictor columns: `reason`, `vehicleSearch`, `precinct`, etc.  
 - Target variable: `personSearch_YES` (binary classification)
 
-#### 3️⃣ Model Comparison
+### 🔹 Step 3: Exploratory Data Analysis (EDA)
+- Visualized stop distributions and racial disparities using **Seaborn**.
+- Example plots:
+  - Count of `personSearch_YES` by problem type.
+  - Precinct frequency histograms.
+  - Comparison by racial subgroups (`White`, `Asian`, `Black`).
+
+### 🔹 Step 4: Model Training
+Implemented multiple models using **Scikit-learn**:
+
+| Model | Description |
+|--------|-------------|
+| 🧍‍♂️ K-Nearest Neighbors (k=3) | Measures similarity between observations |
+| 🌳 Decision Tree | Visualizes decision logic and features |
+| 🌲 Random Forest | Ensemble averaging for stronger prediction |
+| ⚙️ SVM | Linear, RBF, Polynomial, and Sigmoid kernels |
+| 📈 Logistic Regression | Probabilistic binary classifier |
+
+### 🔹 Step 5: Evaluation
+- Confusion matrices & accuracy scores for all models.  
+- Compared kernel performance for SVM.  
+- Visualized **Logistic Regression results** with a custom scatter plot and confusion matrix heatmap.
+
+</details>
+
+
+#### 🔹 Step 6: Model Comparison
+</details>
+<summary><h2>📊 Results</h2></summary>
 | Model | Description | Accuracy |
 |:------|:-------------|:----------:|
 | **KNN** | Baseline classification | ~65% |
