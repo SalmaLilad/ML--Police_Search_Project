@@ -80,7 +80,7 @@ Implemented multiple models using **Scikit-learn**:
 
 ---
 
-####  Key Visuals
+###  Key Visuals
 - Distribution of searches by race and problem type  
 - Correlation matrix for predictive features  
 - Confusion matrices for all classifiers  
@@ -89,7 +89,7 @@ Implemented multiple models using **Scikit-learn**:
 ---
 
 
-####  Insights
+###  Insights
 - *Vehicle searches* and *stop reasons* emerged as the strongest predictors of whether a person was searched.  
 - Certain precincts and violation types displayed disproportionately higher search rates, indicating potential systemic bias.  
 - Logistic Regression and Random Forest models both confirmed consistent patterns aligning with known real-world enforcement disparities.  
@@ -98,7 +98,7 @@ Implemented multiple models using **Scikit-learn**:
 
 ---
 
-####  Tech Stack
+###  Tech Stack
 
 **Languages:** Python (NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn)  
 **Tools:** Jupyter Notebook, Graphviz, GitHub  
