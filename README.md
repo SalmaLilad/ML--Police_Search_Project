@@ -67,9 +67,6 @@ Implemented multiple models using **Scikit-learn**:
 - Compared kernel performance for SVM.  
 - Visualized **Logistic Regression results** with a custom scatter plot and confusion matrix heatmap.
 
-</details>
-
-
 #### 🔹 Step 6: Model Comparison
 </details>
 <summary><h2>📊 Results</h2></summary>
