@@ -44,14 +44,14 @@ After cleaning with `dropna()` and encoding via `pd.get_dummies()`, the data was
 - Predictor columns: `reason`, `vehicleSearch`, `precinct`, etc.  
 - Target variable: `personSearch_YES` (binary classification)
 
-### 🔹 Step 3: Exploratory Data Analysis (EDA)
+#### 🔹 Step 3: Exploratory Data Analysis (EDA)
 - Visualized stop distributions and racial disparities using **Seaborn**.
 - Example plots:
   - Count of `personSearch_YES` by problem type.
   - Precinct frequency histograms.
   - Comparison by racial subgroups (`White`, `Asian`, `Black`).
 
-### 🔹 Step 4: Model Training
+#### 🔹 Step 4: Model Training
 Implemented multiple models using **Scikit-learn**:
 
 | Model | Description |
@@ -62,7 +62,7 @@ Implemented multiple models using **Scikit-learn**:
 | ⚙️ SVM | Linear, RBF, Polynomial, and Sigmoid kernels |
 | 📈 Logistic Regression | Probabilistic binary classifier |
 
-### 🔹 Step 5: Evaluation
+#### 🔹 Step 5: Evaluation
 - Confusion matrices & accuracy scores for all models.  
 - Compared kernel performance for SVM.  
 - Visualized **Logistic Regression results** with a custom scatter plot and confusion matrix heatmap.
@@ -83,7 +83,7 @@ Implemented multiple models using **Scikit-learn**:
 
 ---
 
-###  Key Visuals
+####  Key Visuals
 - Distribution of searches by race and problem type  
 - Correlation matrix for predictive features  
 - Confusion matrices for all classifiers  
@@ -92,7 +92,7 @@ Implemented multiple models using **Scikit-learn**:
 ---
 
 
-###  Insights
+####  Insights
 - *Vehicle searches* and *stop reasons* emerged as the strongest predictors of whether a person was searched.  
 - Certain precincts and violation types displayed disproportionately higher search rates, indicating potential systemic bias.  
 - Logistic Regression and Random Forest models both confirmed consistent patterns aligning with known real-world enforcement disparities.  
@@ -101,7 +101,7 @@ Implemented multiple models using **Scikit-learn**:
 
 ---
 
-###  Tech Stack
+####  Tech Stack
 
 **Languages:** Python (NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn)  
 **Tools:** Jupyter Notebook, Graphviz, GitHub  
