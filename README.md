@@ -129,16 +129,24 @@ Implemented multiple models using **Scikit-learn**:
 
 ###  Future Work
 
+
+
+</details>
+
+---
+
+Add **feature scaling** and **cross-validation** for higher accuracy
+
 Integrate Explainable AI (SHAP, LIME) for interpretability.
 
-Build a Flask/Streamlit dashboard for interactive data visualization.
+Build a Flask/Streamlit dashboard for interactive data visualization and real time analysis
 
-Expand dataset to include multi-state comparisons.
+Expand dataset to include multi-state comparisons to expand predictive content.
 
 Incorporate fairness metrics (e.g., Equalized Odds, Disparate Impact).
 
 
----
+
 
 ###  Citation
 Lilad, S. (2025). Police Search Bias Prediction Using Machine Learning.
