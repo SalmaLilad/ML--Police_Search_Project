@@ -68,16 +68,6 @@ Implemented multiple models using **Scikit-learn**:
 - Visualized **Logistic Regression results** with a custom scatter plot and confusion matrix heatmap.
 
 
-</details>
-<summary><h2>📊 Results</h2></summary>
-| Model | Description | Accuracy |
-|:------|:-------------|:----------:|
-| **KNN** | Baseline classification | ~65% |
-| **Decision Tree** | Interpretable model (visualized via Graphviz) | ~70% |
-| **Random Forest** | Ensemble model with improved stability | ~73% |
-| **SVM (Linear, RBF, Poly, Sigmoid)** | Tested multiple kernels | 68–75% |
-| **Logistic Regression** | Probabilistic baseline | ~72% |
-
 ---
 
 <details>
