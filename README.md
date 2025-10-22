@@ -85,7 +85,7 @@ Implemented multiple models using **Scikit-learn**:
 
 </details>
 
----
+
 
 ---
 
@@ -144,7 +144,7 @@ Expand dataset to include multi-state comparisons to expand predictive content.
 Incorporate fairness metrics (e.g., Equalized Odds, Disparate Impact).
 
 
-
+---
 
 ###  Citation
 Lilad, S. (2025). Police Search Bias Prediction Using Machine Learning.
