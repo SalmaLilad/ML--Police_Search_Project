@@ -133,8 +133,6 @@ Implemented multiple models using **Scikit-learn**:
 
 </details>
 
----
-
 Add **feature scaling** and **cross-validation** for higher accuracy
 
 Integrate Explainable AI (SHAP, LIME) for interpretability.
