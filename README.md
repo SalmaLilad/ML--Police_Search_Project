@@ -114,8 +114,6 @@ Implemented multiple models using **Scikit-learn**:
 
 </details>
 
----
-
 **Languages:** Python (NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn)  
 **Tools:** Jupyter Notebook, Graphviz, GitHub  
 **Techniques:** Data encoding, feature engineering, model benchmarking, and confusion matrix visualization  
