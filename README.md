@@ -80,6 +80,25 @@ Implemented multiple models using **Scikit-learn**:
 
 ---
 
+<details>
+<summary><h2>📊 Results</h2></summary>
+
+| Model | Accuracy (Approx.) | Key Insight |
+|--------|-------------------|--------------|
+| **KNN (k=3)** | ~0.80 | Sensitive to feature scaling |
+| **Decision Tree** | ~0.83 | Easily interpretable, may overfit |
+| **Random Forest** | ~0.85 | Best overall balance and generalization |
+| **SVM (Linear/RBF)** | ~0.82 | Linear kernel performed most consistently |
+| **Logistic Regression** | ~0.84 | Clear interpretability and stable results |
+
+**Confusion matrices** confirm consistent classification between “Searched” and “Not Searched” classes.
+
+</details>
+
+---
+
+---
+
 ###  Key Visuals
 - Distribution of searches by race and problem type  
 - Correlation matrix for predictive features  
