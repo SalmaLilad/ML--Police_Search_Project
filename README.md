@@ -70,7 +70,7 @@ Implemented multiple models using **Scikit-learn**:
 
 ---
 
-<details>
+
 
 ###  Results
 
