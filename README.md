@@ -71,7 +71,8 @@ Implemented multiple models using **Scikit-learn**:
 ---
 
 <details>
-<summary><h2>📊 Results</h2></summary>
+
+###  Results
 
 | Model | Accuracy (Approx.) | Key Insight |
 |--------|-------------------|--------------|
