@@ -11,9 +11,7 @@
 ---
 
 ###  Project Overview
-This project investigates  **patterns in police stop data** and uncover potential bias in police search decisions using open-source stop data. Through **data visualization** and **machine learning models**, it predicts whether a *person was searched* based on demographics, violation type, and stop reason.
- 
-By applying machine learning to real-world law enforcement data, it aims to reveal correlations between **stop reasons, race, vehicle searches, and precincts**, highlighting both predictive power and fairness concerns.
+This project investigates  **patterns in police stop data** and uncover potential bias in police search decisions using open-source stop data. By applying machine learning to real-world law enforcement data, it aims to reveal correlations between **stop reasons, race, vehicle searches, and precincts**, highlighting both predictive power and fairness concerns.
 
 
 Built as part of the University of Minnesota 2025 Basic Machine Learning Summer Camp **Capstone Project**, it explores fairness and real-world applications of AI in social data.
