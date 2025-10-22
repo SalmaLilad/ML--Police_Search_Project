@@ -32,7 +32,7 @@ After cleaning with `dropna()` and encoding via `pd.get_dummies()`, the data was
 
 ---
 
-###  Methodology
+###  Workflow & Methodlogy
 
 #### 1️⃣ Data Cleaning & Preparation
 - Removed missing values, encoded categorical variables using **`pd.get_dummies()`**  
