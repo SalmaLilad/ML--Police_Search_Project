@@ -1,4 +1,4 @@
-# 🚓 Police Search Bias Prediction
+#  Police Search Bias Prediction
 **Using Machine Learning to Analyze Racial and Situational Bias in Police Stop Data**
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
@@ -34,35 +34,35 @@ After cleaning with `dropna()` and encoding via `pd.get_dummies()`, the data was
 
 ###  Workflow & Methodlogy
 
-#### 🔹 Step 1: Data Cleaning & Encoding
+####  Step 1: Data Cleaning & Encoding
 - Removed missing values, encoded categorical variables using **`pd.get_dummies()`**  
 - Normalized features and dropped incomplete rows
 - Verified column types and balanced the dataset for fair modeling.
 - Performed visual EDA with `Seaborn` and `Matplotlib`
 
-#### 🔹 Step 2: Feature Engineering
+####  Step 2: Feature Engineering
 - Predictor columns: `reason`, `vehicleSearch`, `precinct`, etc.  
 - Target variable: `personSearch_YES` (binary classification)
 
-#### 🔹 Step 3: Exploratory Data Analysis (EDA)
+####  Step 3: Exploratory Data Analysis (EDA)
 - Visualized stop distributions and racial disparities using **Seaborn**.
 - Example plots:
   - Count of `personSearch_YES` by problem type.
   - Precinct frequency histograms.
   - Comparison by racial subgroups (`White`, `Asian`, `Black`).
 
-#### 🔹 Step 4: Model Training
+####  Step 4: Model Training
 Implemented multiple models using **Scikit-learn**:
 
 | Model | Description |
 |--------|-------------|
-| 🧍‍♂️ K-Nearest Neighbors (k=3) | Measures similarity between observations |
-| 🌳 Decision Tree | Visualizes decision logic and features |
-| 🌲 Random Forest | Ensemble averaging for stronger prediction |
-| ⚙️ SVM | Linear, RBF, Polynomial, and Sigmoid kernels |
-| 📈 Logistic Regression | Probabilistic binary classifier |
+|  K-Nearest Neighbors (k=3) | Measures similarity between observations |
+|  Decision Tree | Visualizes decision logic and features |
+|  Random Forest | Ensemble averaging for stronger prediction |
+|  SVM | Linear, RBF, Polynomial, and Sigmoid kernels |
+|  Logistic Regression | Probabilistic binary classifier |
 
-#### 🔹 Step 5: Evaluation
+####  Step 5: Evaluation
 - Confusion matrices & accuracy scores for all models.  
 - Compared kernel performance for SVM.  
 - Visualized **Logistic Regression results** with a custom scatter plot and confusion matrix heatmap.
@@ -161,12 +161,12 @@ Incorporate fairness metrics (e.g., Equalized Odds, Disparate Impact).
 
 ---
 
-## 👩‍💻 Author  
+##  Author  
 **Saanvi ([@SalmaLilad](https://github.com/SalmaLilad))**  
 Exploring fairness, ethics, and transparency in real-world machine learning applications.
 
 ---
 
-> 🧩 *“Data science is not just about prediction — it’s about understanding the patterns that shape human impact.”*
+>  *“Data science is not just about prediction — it’s about understanding the patterns that shape human impact.”*
 
 ---
