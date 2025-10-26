@@ -174,6 +174,6 @@ All project code, architecture, and experimental results were implemented, and v
 
 ---
 
->  *“Data science is not just about prediction — it’s about understanding the patterns that shape human impact.”*
+>  *“Data science is not just about prediction, it’s about understanding the patterns that shape human impact.”*
 
 ---
